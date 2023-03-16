@@ -1,0 +1,71 @@
+{
+    "Title": "Space Level",
+    "ID": 1,
+    "background": "img/Level1/bg.jpg",
+
+    "player_textures" : [
+                            "img/Level1/player/p1_walk0.png",
+                            "img/Level1/player/p1_walk1.png",
+                            "img/Level1/player/p1_walk2.png",
+                            "img/Level1/player/p1_walk3.png",
+                            "img/Level1/player/p1_walk4.png",
+                            "img/Level1/player/p1_walk5.png",
+                            "img/Level1/player/p1_walk6.png",
+                            "img/Level1/player/p1_walk7.png",
+                            "img/Level1/player/p1_walk8.png",
+                            "img/Level1/player/p1_walk9.png",
+                            "img/Level1/player/p1_walk10.png",
+                            "img/Level1/player/p1_walk11.png"
+                        ],
+
+    "player_jump_texture" : "img/Level1/player/jump.png",
+
+    "player_jump_sound" : "sounds/Level1/jump.wav",
+
+    "enemy_textures" : [
+                        "img/Level1/Enemy/slimeWalk1.png"
+                       ],
+
+    "enemy_death_texture" : "img/Level1/Enemy/slimeDead.png",
+
+    "enemy_death_sound" : "sounds/Level1/enemy_death.mp3",
+
+    "footstep_sound" : "sounds/Level1/footstep.mp3",
+    
+    "textures": [    
+                    "img/Level1/Tiles/castleCenter.png", 
+                    "img/Level1/Tiles/castleMid.png", 
+                    "img/Level1/Tiles/castleLeft.png", 
+                    "img/Level1/Tiles/castleRight.png", 
+                    "img/Level1/Tiles/box.png"
+                ],
+
+    "text" :    [
+                    ["WELCOME TO SPACE HOPPERS", 50, 400, 225],
+                    ["ARROW KEYS TO MOVE", 30, 450, 300],
+                    ["SPACE TO JUMP", 30, 1090, 300],
+                    ["AVOID ENEMIES TO STOP YOURSELF BEING HURT", 30, 2100, 200],
+                    ["/", 30, 2350, 250],
+                    ["LAND ON THEIR HEAD TO ELIMINATE THEM", 30, 2200, 300]
+                ],
+
+    "data": [
+                [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 2, 4, 0, 0, 0, 0, 0, 3, 2, 2, 4],
+                [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, "E", 0, 0, 0, 0, 0, 0, "E", 0, 0, 0, 0, 0, 0, 0, 0, 0, "F"],
+                [1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+                [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+            ],
+
+    "flag_texture" : "img/Level1/flag.png",
+
+    "music" : "music/space_music.mp3"
+
+}
